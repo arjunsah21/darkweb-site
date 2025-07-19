@@ -1,0 +1,11 @@
+
+DataDirectory /var/lib/tor
+
+SocksPort 0
+
+ExitRelay 0
+
+# useless line for Jinja bug
+# Hidden Service configuration
+HiddenServiceDir /var/lib/tor/hidden_service/
+HiddenServicePort 80 web:80
